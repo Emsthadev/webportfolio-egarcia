@@ -16,10 +16,7 @@
   <link 
     rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-<!-- Animate.CSS CDN -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 
 
@@ -28,18 +25,20 @@
 <body>
 <!-- Nav -->
 
-<nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
 
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"> </span>
+  <a class="navbar-brand" >EG</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+  data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" 
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
   </button>
 
-  <div class="collapse navbar-collapse  " id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#landing">Home <span class="sr-only">(current)</span></a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav  ">
+      <li class="nav-item ">
+        <a class="nav-link " href="#landing">Home </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#about-me">About Me</a>
@@ -68,17 +67,18 @@
 
 <!-- End Nav -->
 
-l
+
   <!-- Landing -->
 
-<section id="landing" class="row m-md-5 ">
+<section id="landing">
     
- 
+ <!-- glass-->
 
+<div  class="row m-5  ">
     <div class="col-12 col-md-5  ">
      
-      <div class="d-flex flex-column justify-content-center align-items-center mx-auto">
-        <img class="  animate__animated animate__fadeInTopLeft animate__slow 1s animate__delay-0.8s   " 
+      <div class="d-flex flex-column justify-content-center align-items-center mx-auto" >
+        <img class="img-landing m-md-4  " 
                 src="./images/Emman.jpeg" alt="Pic">
       </div>
     </div>
@@ -86,32 +86,30 @@ l
 
      <div class="col-12 col-md-6 ml-md-3 "> 
 
-      <div class="d-flex flex-column justify-content-center align-items-center mx-auto">
-       <h4 class=" animate__animated animate__fadeInTopRight 
-                   animate__slow 2s text-center mt-4">
+      <div class="d-flex flex-column justify-content-center align-items-center mx-auto ">
+       <h4 class="  text-center mt-5">
              HI MY NAME IS
         </h4>
-        <h1 class=" animate__animated animate__fadeInTopRight
-                     animate__slow 2s text-center font-weight-bolder">
+        <h1 class="  text-center font-weight-bolder">
          <em>EMMANUEL GARCIA</em> 
         </h1> 
-        <h4 class=" animate__animated animate__fadeInTopRight
-                    animate__slower 1s text-center"> 
+        <h4 class="  text-center"> 
               AND I AM A
         </h4>
         
-        <h2 class=" animate__animated animate__fadeInTopRight 
-                    animate__slower 1s text-center">
+        <h2 class="  text-center">
               SOFTWARE DEVELOPER
         </h2>
 
-        <button href="./cv.html" type="button" class="rounded-pill animate__animated animate__fadeInTopRight 
-        animate__slower 1s" >Resume</button>
+        <button  type="button" class="rsm rounded-pill " ><a class="contact" href="#contact">Contact Me</a></button>
 
       </div>  
       <!-- end of div flex -->
 
-  </div>
+  </div> 
+  <!-- end for row -->
+</div> 
+
 
 
 </section>
@@ -119,43 +117,265 @@ l
 
 <!-- Educational -->
 
-<section id="about-me">
+<section id="about-me" class="  bg-secondary">
  
-  <div class="row">
-      <div class="col-12 ">
+  <h2 class=" font-weight-bold text-center mt-5">About Me</h2>
+ 
+ 
 
-      </div>
-      <div class="col">
 
-      </div>
-      <div class="col">
-
-      </div>
+    <div  class="intro-about text-white  d-flex flex-column justify-content-center align-items-center p-5 ">
+  <p class="text-align-left">  I am Emmanuel Fernando D. Garcia a graduate in San Beda
+   University with a Bachelor of Science degree in Information 
+   Communication Technology who is looking for an opportunity to start 
+   my career in Web Development or Software Development.</p>
+   
   </div>
+
+  <h2 class=" font-weight-bold text-center ">Education</h2>
+  
+  <div  class="intro-about text-white  d-flex flex-column justify-content-center align-items-center ">
+  
+
+
+  <div class="card-one card mb-3 text-center">
+    <div class="row no-gutters">
+    
+      <div class="col-md-8">
+        <div class="card-body text-dark">
+          <h5 class="card-title"> DON BOSCO TECHNICAL COLLEGE MANDALUYONG
+            </h5>
+          <p class="card-text">Secondary Education</p>
+          <p class="card-text"><small class="text-muted"> 2011-2015</small></p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <img class="card-1" src="./images/dbtc.png" alt="dbtc">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card-one card mb-3 text-center">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img class="card-1" src="./images/sbu-2.jpeg" alt="dbtc">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body text-dark">
+          <h5 class="card-title">  SAN BEDA UNIVERSITY 
+            MANILA</h5>
+          <p class="card-text">  BACHELOR OF SCEINCE
+            INFORMATION COMMUNICATION TECHNOLOGY</p>
+          <p class="card-text"><small class="text-muted"> 2015-2020</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  
+    <!-- <div class="row">
+        <div class="col-12 col-md-6 order-md-1">
+          DON BOSCO TECHNICAL COLLEGE
+          MANDALUYONG
+          2011-2015
+          SECONDARY EDUCATION
+  
+        </div>
+        <div class="col-12 col-md-6 order-md-2">
+          SAN BEDA UNIVERSITY 
+          MANILA
+          2015-2020
+          BACHELOR OF SCIENCE IN 
+          INFORMATION COMMUNICATION TECHNOLOGY
+        </div> -->
+        
+  
+      
+    
+  
 
 </section>
 
 
-<!-- End Educational -->
+<!-- End Educational & Experience -->
 
 <!-- Skills -->
+<section id="skills"  class="d-flex flex-column  align-items-center mb-3">
+  <h2 class=" font-weight-bold text-center mt-3">Skills</h2>
 
+  <span>C++</span>
+  <div class="cplus progress bg-dark" >
+  
+    <div class="seven-five progress-bar progress-bar-striped progress-bar-animated bg-info" 
+    role="progressbar" aria-valuenow="75" aria-valuemin="0" 
+    aria-valuemax="100" >75%</div>
+  </div>
+
+  <span>Java</span>
+  <div class="cplus progress bg-dark" >
+  
+    <div class="six progress-bar progress-bar-striped progress-bar-animated bg-info" 
+    role="progressbar" aria-valuenow="60" aria-valuemin="0" 
+    aria-valuemax="100" >60%</div>
+  </div>
+
+  <span>SQL</span>
+  <div class=" cplus progress bg-dark" >
+  
+    <div class="six progress-bar progress-bar-striped progress-bar-animated bg-info" 
+    role="progressbar" aria-valuenow="60" aria-valuemin="0" 
+    aria-valuemax="100" >60%</div>
+  </div>
+
+  <span>CSS3</span>
+  <div class=" cplus progress bg-dark" >
+  
+    <div class="seven progress-bar progress-bar-striped progress-bar-animated bg-info" 
+    role="progressbar" aria-valuenow="70" aria-valuemin="0" 
+    aria-valuemax="100" >70%</div>
+  </div>
+
+  <span>HTML5</span>
+  <div class="cplus progress bg-dark" >
+  
+    <div class="eight progress-bar progress-bar-striped progress-bar-animated bg-info" 
+    role="progressbar" aria-valuenow="70" aria-valuemin="0" 
+    aria-valuemax="100" >80%</div>
+  </div>
+  
+  <span>Git Hub/ Git Lab</span>
+  <div class="cplus progress bg-dark" ">
+  
+    <div class="seven progress-bar progress-bar-striped progress-bar-animated bg-info" 
+    role="progressbar" aria-valuenow="70" aria-valuemin="0" 
+    aria-valuemax="100" >70%</div>
+  </div>
+  
+  
+  
+  
+  
+
+ 
+  
+
+</div>
+
+</section>
 
 <!-- End Skills -->
 
 
 <!-- porjects -->
+<section id="projects" class="bg-secondary text-white">
+
+  <h2 class=" font-weight-bold text-center mt-3">Projects</h2>
+  <div class="row d-md-flex flex-md-row justify-content-md-center align-items-md-center text-center p-5 mr-md-5 ">
+    <div class="col-12 col-md-3 container ">
+
+      
+      <img class=" pic-proj image " src="./images/construction.jpeg" alt="">
+      <div class="overlay ">
+     <div class="text">Capstone Project (Web Developement)
+      Construction Company
+    </div> 
+    </div>
+
+    </div>
+
+ 
+
+
+ 
+    <div class="col-12 col-md-3 container">
+    
+      <img class="pic-proj image " src="./images/biom.jpeg" alt="">
+   <div class="overlay">
+      <div class="text">   Research Project (Fingerprint Biometric)
+     </div>
+    </div>
+  </div>
+
+   
+
+    <div class="col-12 col-md-3 container">
+    
+      <img class="pic-proj image " src="./images/coefficient.jpeg" alt="">
+      <div class="overlay">
+     <div class="text"> Coefficient Correlation Calculator
+      Math Project </div>
+      </div>
+
+   
+
+    
+</div>
+
+</section>
 
 <!-- end projects -->
 
 <!-- contact -->
+<section id="contact">
 
+ <!--Section heading-->
+ <h2 class=" font-weight-bold text-center my-4">Contact us</h2>
+
+
+ <form class= "row bg-info m-5 p-5" >
+  <div class=" col-md-8 col-xl-4 m-md-5">
+      
+<!-- px-4 -->
+<!-- <form class="" > -->
+  <div class="form-group">
+      <label for="txt-username text-white ">Name:</label>
+      <input id="txt-username" type="text" class="form-control" placeholder="Enter Full Name"> 
+  </div>
+
+  <div>
+      <label for="txt-email text-white">Email:</label>
+      <input id="txt-email" type="text" class="form-control" placeholder="sample@email.com"> 
+  </div>
+  
+
+ 
+  <div class="form-group">
+      <label for="txt-message">Message: </label>
+      <textarea class="form-control" name="" id="txt-message" cols="2" rows="4"></textarea>
+
+  </div>
+
+
+  <button type="button" class="align-bottom btn btn-dark disabled"  >
+    Send Email
+    </button> 
+    
+
+    
+    </div>
+    
+  
+
+
+
+</form>
+
+
+
+</section>
 <!-- end contact -->
 
 
 <!-- footer -->
-<!-- end footer -->
 
+<footer class="bg-dark text-white text-center ">
+  <p> © All Rights Reserved 2022 </p>
+</footer>
+<!-- end footer -->
 
 
   <!-- Bundle JS 4.6 -->
